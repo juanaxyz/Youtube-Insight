@@ -54,7 +54,7 @@ jupyter notebook notebooks/02_visualization.ipynb   # run all cells
 All generated figures will be saved in `notebooks/figures/`.
 
 ## What the notebooks do
-- **01_preprocess.ipynb** loads the raw CSV, cleans NaNs, converts numeric columns, creates engineered features (average earnings, earnings per view, upload frequency, subscriber‑to‑earnings, CPM, year/month start) and stores the cleaned data as Parquet.
+- **01_preprocess.ipynb** loads the raw CSV, cleans NaNs, converts numeric columns, creates engineered features ( upload frequency, subscriber‑to‑earnings, CPM, year/month start) and stores the cleaned data as Parquet.
 - **02_visualization.ipynb** reads the processed Parquet file and produces 20 static PNG visualizations that answer the insight questions you listed.
 
 
